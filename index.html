@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Download - App Oficial</title>
   <style>
     body {
@@ -14,27 +14,35 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
+      justify-content: flex-start;
       min-height: 100vh;
       text-align: center;
     }
+
     .container {
-      padding: 20px;
+      width: 100%;
       max-width: 400px;
+      padding: 20px;
     }
+
     img.logo {
-      width: 200px;
-      margin-bottom: 20px;
+      width: 100%;
+      max-width: 220px;
+      margin: 30px auto 20px;
+      display: block;
     }
+
     h1 {
-      font-size: 24px;
+      font-size: 22px;
       margin-bottom: 10px;
     }
+
     p {
       font-size: 16px;
       margin-bottom: 20px;
       line-height: 1.4;
     }
+
     a.btn {
       background-color: #fff;
       color: #000;
@@ -43,10 +51,14 @@
       border-radius: 6px;
       font-weight: bold;
       transition: 0.2s ease-in-out;
+      display: inline-block;
+      margin-top: 10px;
     }
+
     a.btn:hover {
       background-color: #ddd;
     }
+
     .aviso {
       font-size: 13px;
       color: #aaa;
@@ -56,17 +68,18 @@
 </head>
 <body>
   <div class="container">
-    <img src="logo_tattoo.png" alt="Logo" class="logo">
+    <img src="logo_tattoo.png" alt="Logo" class="logo" />
+
     <h1>App Oficial – Bruno Igor Tattoo</h1>
-    <p>Você está prestes a baixar meu aplicativo oficial.<br>100% seguro, direto do criador.</p>
-    
+    <p>Você está prestes a baixar meu aplicativo oficial.<br />100% seguro, direto do criador.</p>
+
     <a class="btn" href="https://drive.google.com/uc?export=download&id=1ypyo396JOm4RIOyFgKDk8P1v-iyLD-kx">Baixar Agora (APK)</a>
-    
+
     <p class="aviso">
-      ⚠️ Se aparecer alguma mensagem de aviso do Google, clique em<br>
+      ⚠️ Se aparecer alguma mensagem de aviso do Google, clique em<br />
       <strong>“Fazer o download mesmo assim”</strong> — o app é seguro e testado.
     </p>
-    <p class="aviso">Dúvidas? Me chama no Instagram: <br><strong>@brunoigor.tattoo</strong></p>
+    <p class="aviso">Dúvidas? Me chama no Instagram:<br /><strong>@brunoigor.tattoo</strong></p>
   </div>
 </body>
 </html>
